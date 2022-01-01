@@ -9,5 +9,5 @@ git push origin master --> to push the commit into master repository
 git add . --> to add the changes made in the project to github
 git pull https://github.com/Aish0106/GitHubDemo.git --> to pull the codes
 git log --> to get log of cummits
-
+-----------------------------------------------------------------------------------------------------------------------------------------
 
