@@ -1,1 +1,13 @@
+git init --> Initialize empty repository into the project folder //--> .Git Folder will be created into the project folder of the workspace
+git remote add origin https://github.com/Aish0106/GitHubDemo.git --> Link git to the github account
+git status --> to get status of repository
+git add * --> to add all files into the github account
+git commit -m "First Commit" --> to commit the added files into the github repository
+git config user.name "Sohil Cherkulwar" --> To config name of the user
+git config user.email "cherkulwarsohil@gmail.com" --> To config mail ID of the user
+git push origin master --> to push the commit into master repository
+git add . --> to add the changes made in the project to github
+git pull https://github.com/Aish0106/GitHubDemo.git --> to pull the codes
+git log --> to get log of cummits
+
 
