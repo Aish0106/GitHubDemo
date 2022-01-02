@@ -8,6 +8,7 @@
     <classes>
       <class name="testClasses.TestKiteApp"/>
       <class name="testClasses.TestKiteApp1"/>
+      <class name="testClasses.TestKiteApp2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

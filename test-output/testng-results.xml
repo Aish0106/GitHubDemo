@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+<testng-results ignored="4" total="7" passed="2" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Login to kite]]>
@@ -25,31 +25,37 @@
     <line>
       <![CDATA[closing Browser]]>
     </line>
+    <line>
+      <![CDATA[Login to kite]]>
+    </line>
+    <line>
+      <![CDATA[closing Browser]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-01-01T23:08:39 IST" name="Suite" finished-at="2022-01-01T23:09:24 IST" duration-ms="45516">
+  <suite started-at="2022-01-02T09:40:16 IST" name="Suite" finished-at="2022-01-02T09:41:24 IST" duration-ms="67666">
     <groups>
     </groups>
-    <test started-at="2022-01-01T23:08:39 IST" name="Test" finished-at="2022-01-01T23:09:24 IST" duration-ms="45516">
+    <test started-at="2022-01-02T09:40:16 IST" name="Test" finished-at="2022-01-02T09:41:24 IST" duration-ms="67666">
       <class name="testClasses.TestKiteApp1">
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testClasses.TestKiteApp1@4b0d79fc]" started-at="2022-01-01T23:09:14 IST" name="browserLaunch" finished-at="2022-01-01T23:09:21 IST" duration-ms="6462" status="PASS">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testClasses.TestKiteApp1@4c1909a3]" started-at="2022-01-02T09:41:03 IST" name="browserLaunch" finished-at="2022-01-02T09:41:10 IST" duration-ms="7017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method is-config="true" signature="kiteLogin()[pri:0, instance:testClasses.TestKiteApp1@4b0d79fc]" started-at="2022-01-01T23:09:21 IST" name="kiteLogin" finished-at="2022-01-01T23:09:21 IST" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="kiteLogin()[pri:0, instance:testClasses.TestKiteApp1@4c1909a3]" started-at="2022-01-02T09:41:10 IST" name="kiteLogin" finished-at="2022-01-02T09:41:11 IST" duration-ms="281" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login to kite]]>
             </line>
           </reporter-output>
         </test-method> <!-- kiteLogin -->
-        <test-method signature="validationOfErrorMsg()[pri:0, instance:testClasses.TestKiteApp1@4b0d79fc]" started-at="2022-01-01T23:09:21 IST" name="validationOfErrorMsg" finished-at="2022-01-01T23:09:21 IST" duration-ms="422" status="PASS">
+        <test-method signature="validationOfErrorMsg()[pri:0, instance:testClasses.TestKiteApp1@4c1909a3]" started-at="2022-01-02T09:41:11 IST" name="validationOfErrorMsg" finished-at="2022-01-02T09:41:11 IST" duration-ms="415" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case is passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- validationOfErrorMsg -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.TestKiteApp1@4b0d79fc]" started-at="2022-01-01T23:09:22 IST" name="closeBrowser" finished-at="2022-01-01T23:09:22 IST" duration-ms="793" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.TestKiteApp1@4c1909a3]" started-at="2022-01-02T09:41:11 IST" name="closeBrowser" finished-at="2022-01-02T09:41:12 IST" duration-ms="748" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[closing Browser]]>
@@ -58,15 +64,15 @@
         </test-method> <!-- closeBrowser -->
       </class> <!-- testClasses.TestKiteApp1 -->
       <class name="testClasses.TestKiteApp">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testClasses.TestKiteApp@47d9a273]" started-at="2022-01-01T23:08:39 IST" name="beforeTest" finished-at="2022-01-01T23:08:40 IST" duration-ms="979" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testClasses.TestKiteApp@4b8ee4de]" started-at="2022-01-02T09:40:16 IST" name="beforeTest" finished-at="2022-01-02T09:40:17 IST" duration-ms="1045" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testClasses.TestKiteApp@47d9a273]" started-at="2022-01-01T23:08:40 IST" name="browserLaunch" finished-at="2022-01-01T23:08:58 IST" duration-ms="18317" status="PASS">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testClasses.TestKiteApp@4b8ee4de]" started-at="2022-01-02T09:40:17 IST" name="browserLaunch" finished-at="2022-01-02T09:40:42 IST" duration-ms="24791" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method is-config="true" signature="kiteLogin()[pri:0, instance:testClasses.TestKiteApp@47d9a273]" started-at="2022-01-01T23:08:58 IST" name="kiteLogin" finished-at="2022-01-01T23:09:05 IST" duration-ms="6671" status="PASS">
+        <test-method is-config="true" signature="kiteLogin()[pri:0, instance:testClasses.TestKiteApp@4b8ee4de]" started-at="2022-01-02T09:40:42 IST" name="kiteLogin" finished-at="2022-01-02T09:40:52 IST" duration-ms="9579" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login to kite]]>
@@ -76,32 +82,99 @@
             </line>
           </reporter-output>
         </test-method> <!-- kiteLogin -->
-        <test-method signature="validationOfUserID()[pri:0, instance:testClasses.TestKiteApp@47d9a273]" started-at="2022-01-01T23:09:05 IST" name="validationOfUserID" finished-at="2022-01-01T23:09:11 IST" duration-ms="5844" status="PASS">
+        <test-method signature="validationOfUserID()[pri:0, instance:testClasses.TestKiteApp@4b8ee4de]" started-at="2022-01-02T09:40:52 IST" name="validationOfUserID" finished-at="2022-01-02T09:40:59 IST" duration-ms="7645" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case is passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- validationOfUserID -->
-        <test-method is-config="true" signature="kiteLogout()[pri:0, instance:testClasses.TestKiteApp@47d9a273]" started-at="2022-01-01T23:09:11 IST" name="kiteLogout" finished-at="2022-01-01T23:09:13 IST" duration-ms="1836" status="PASS">
+        <test-method is-config="true" signature="kiteLogout()[pri:0, instance:testClasses.TestKiteApp@4b8ee4de]" started-at="2022-01-02T09:41:00 IST" name="kiteLogout" finished-at="2022-01-02T09:41:02 IST" duration-ms="2133" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Log Out from Kite]]>
             </line>
           </reporter-output>
         </test-method> <!-- kiteLogout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.TestKiteApp@47d9a273]" started-at="2022-01-01T23:09:13 IST" name="closeBrowser" finished-at="2022-01-01T23:09:14 IST" duration-ms="808" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.TestKiteApp@4b8ee4de]" started-at="2022-01-02T09:41:02 IST" name="closeBrowser" finished-at="2022-01-02T09:41:03 IST" duration-ms="882" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[closing Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:testClasses.TestKiteApp@47d9a273]" started-at="2022-01-01T23:09:22 IST" name="AfterTest" finished-at="2022-01-01T23:09:24 IST" duration-ms="1837" status="PASS">
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:testClasses.TestKiteApp@4b8ee4de]" started-at="2022-01-02T09:41:22 IST" name="AfterTest" finished-at="2022-01-02T09:41:24 IST" duration-ms="2244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
       </class> <!-- testClasses.TestKiteApp -->
+      <class name="testClasses.TestKiteApp2">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testClasses.TestKiteApp2@428640fa]" started-at="2022-01-02T09:41:12 IST" name="browserLaunch" finished-at="2022-01-02T09:41:20 IST" duration-ms="7566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method is-config="true" signature="kiteLogin()[pri:0, instance:testClasses.TestKiteApp2@428640fa]" started-at="2022-01-02T09:41:20 IST" name="kiteLogin" finished-at="2022-01-02T09:41:20 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to kite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- kiteLogin -->
+        <test-method signature="validationOfErrorMsg()[pri:0, instance:testClasses.TestKiteApp2@428640fa]" started-at="2022-01-02T09:41:20 IST" name="validationOfErrorMsg" finished-at="2022-01-02T09:41:21 IST" duration-ms="521" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual Error Msg After User ID Tab do not match Expected Error Msg After User ID Tab Test Case is failed expected [Invalid username or password.] but found [Password should be minimum 6 characters.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual Error Msg After User ID Tab do not match Expected Error Msg After User ID Tab Test Case is failed expected [Invalid username or password.] but found [Password should be minimum 6 characters.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at testClasses.TestKiteApp2.validationOfErrorMsg(TestKiteApp2.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfErrorMsg -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.TestKiteApp2@428640fa]" started-at="2022-01-02T09:41:21 IST" name="closeBrowser" finished-at="2022-01-02T09:41:22 IST" duration-ms="515" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testClasses.TestKiteApp2 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

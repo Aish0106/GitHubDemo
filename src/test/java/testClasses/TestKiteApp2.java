@@ -16,9 +16,7 @@ import pom.KiteLoginPage;
 import pom.KitePinPage;
 import utility.utility;
 
-public class TestKiteApp1 extends Base
-{
-	
+public class TestKiteApp2 extends Base{
 	KiteLoginPage login;
 	KitePinPage pin;
 	KiteHomePage home;
@@ -40,11 +38,11 @@ public class TestKiteApp1 extends Base
 	}
 	
   @Test
-  public void validationOfErrorMsgAfterUserIDTab() throws EncryptedDocumentException, IOException, InterruptedException 
+  public void validationOfErrorMsgAfterPassTab() throws EncryptedDocumentException, IOException, InterruptedException 
   {  
-	  String ActualErrorMsgAfterUserIDTab = login.errorMsgAfterUserIDTab();  
-	  String ExpectedErrorMsgAfterUserIDTab = utility.getDataFromExcel(2, 4);
-	  Assert.assertEquals(ActualErrorMsgAfterUserIDTab, ExpectedErrorMsgAfterUserIDTab, "Actual Error Msg After User ID Tab do not match Expected Error Msg After User ID Tab Test Case is failed");
+	  String ActualErrorMsgAfterPassTab = login.errorMsgAfterPasswordTab();  
+	  String ExpectedErrorMsgAfterPassTab = utility.getDataFromExcel(2, 3); //Intentionally failing TC
+	  Assert.assertEquals(ActualErrorMsgAfterPassTab, ExpectedErrorMsgAfterPassTab, "Actual Error Msg After User ID Tab do not match Expected Error Msg After User ID Tab Test Case is failed");
 	  Reporter.log("Test Case is passed", true);
   }
   
@@ -55,9 +53,4 @@ public class TestKiteApp1 extends Base
 	  Reporter.log("closing Browser", true);
 	  driver.close();
   }
-	
-	
-	
-	
-  
 }
